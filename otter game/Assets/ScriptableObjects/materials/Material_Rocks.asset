@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Material_Rocks
   m_EditorClassIdentifier: Assembly-CSharp::Material_Rocks
   materialName: 
+  id: 2
   materialStackAmount: 0
   materialAmount: 0
   materialSprite: {fileID: 0}

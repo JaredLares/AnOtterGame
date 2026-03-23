@@ -4,6 +4,7 @@ using UnityEngine;
 public class BaseMaterial : ScriptableObject
 {
     [SerializeField] private string materialName;
+    [SerializeField] private int id;
     [SerializeField] private int materialStackAmount;
     [SerializeField] private int materialAmount;
     [SerializeField] private Sprite materialSprite;
