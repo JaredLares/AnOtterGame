@@ -16,5 +16,9 @@ public class InventoryStructure : ScriptableObject
     {
         return inventory[index].MaterialSprite;
     }
-
+    
+    public int InventoryAmount(int index)
+    {
+        return inventory[index].MaterialAmount;
+    }
 }

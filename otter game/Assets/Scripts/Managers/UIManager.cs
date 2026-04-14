@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public List<Image> images = new List<Image>();
-    [SerializeField] private List<TextMeshProUGUI> itemsAmount = new List<TextMeshProUGUI>();
+    public List<TextMeshProUGUI> itemsAmount;
     [SerializeField] private InventoryStructure structure;
     public static UIManager Instance;
     private void Awake()
@@ -33,6 +33,9 @@ public class UIManager : MonoBehaviour
             Debug.Log("I:" + i); 
             if(i >= images.Count) break;
             images[i].sprite = structure.inventorySprite(i); 
+            images[i].color = new Color32(255, 255, 255, 255);
+            itemsAmount[i].text = structure.InventoryAmount(i).ToString();
+            
         }
     }
 }
