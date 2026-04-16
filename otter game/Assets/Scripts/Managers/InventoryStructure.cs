@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "InventoryStructure", menuName = "Scriptable Objects/InventoryStructure")]
 public class InventoryStructure : ScriptableObject
 {
+    [SerializeField] private List<BaseMaterial> allMaterials = new List<BaseMaterial>();
     [SerializeField] private List<BaseMaterial> inventory = new List<BaseMaterial>();
 
     public int InventoryCount()

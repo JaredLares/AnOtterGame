@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f70183531cbc7843b5c188510830e4c, type: 3}
   m_Name: Material_Rocks
   m_EditorClassIdentifier: Assembly-CSharp::Material_Rocks
-  materialName: 
-  id: 0
+  materialName: Rocks
+  id: 2
   materialAmount: 0
   materialSprite: {fileID: 0}
