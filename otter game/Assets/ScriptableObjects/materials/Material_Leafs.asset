@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46aae3c97a5400f43a4a5b0931333fa6, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f70183531cbc7843b5c188510830e4c, type: 3}
   m_Name: Material_Leafs
   m_EditorClassIdentifier: Assembly-CSharp::Material_Leafs
-  materialName: Leaf
-  id: 3
-  materialAmount: 5
-  materialSprite: {fileID: 7907336577712263196, guid: 6abe62e97c055a748860e63f358e6e10, type: 3}
+  materialName: 
+  id: 0
+  materialAmount: 0
+  materialSprite: {fileID: 0}

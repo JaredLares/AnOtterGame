@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5af2eb966dd94048a327ff80ffc7873, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f70183531cbc7843b5c188510830e4c, type: 3}
   m_Name: Material_Rocks
   m_EditorClassIdentifier: Assembly-CSharp::Material_Rocks
-  materialName: Rocks
-  id: 2
-  materialAmount: 6
-  materialSprite: {fileID: -2705597995764985619, guid: 5360fca64e8197f4c8ea8e0d2367a43e, type: 3}
+  materialName: 
+  id: 0
+  materialAmount: 0
+  materialSprite: {fileID: 0}
