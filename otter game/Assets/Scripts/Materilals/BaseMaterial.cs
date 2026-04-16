@@ -7,7 +7,6 @@ public class BaseMaterial : ScriptableObject
     [SerializeField] private int id;
     [SerializeField] private int materialAmount;
     [SerializeField] private Sprite materialSprite;
-    [SerializeField] private BaseMat matClass;
 
     public string MaterialName
     {

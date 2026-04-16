@@ -9,33 +9,28 @@ public class UIManager : MonoBehaviour
     public List<TextMeshProUGUI> itemsAmount;
     [SerializeField] private InventoryStructure structure;
     public static UIManager Instance;
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject); 
         }
-        else
+        else if (Instance != this)
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
-        UpdateHotbar();
     }
     public void UpdateHotbar()
     {
-        Debug.Log("1"); 
-        Debug.Log(structure.InventoryCount());
         if(structure.InventoryCount() == 0) return;
-        Debug.Log("2"); 
-
         for(int i = 0;i < structure.InventoryCount(); i++ )
         {
-            Debug.Log("I:" + i); 
             if(i >= images.Count) break;
             images[i].sprite = structure.inventorySprite(i); 
             images[i].color = new Color32(255, 255, 255, 255);
             itemsAmount[i].text = structure.InventoryAmount(i).ToString();
-            
         }
     }
 }

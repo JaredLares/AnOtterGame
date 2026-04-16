@@ -6,8 +6,3 @@ public class Material_Wood : BaseMaterial
 {
     
 }
-
-public class WoodClass : BaseMat
-{
-
-}

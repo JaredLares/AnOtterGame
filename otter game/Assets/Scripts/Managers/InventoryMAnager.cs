@@ -1,37 +1,44 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
     public InventoryStructure inventoryStructure;
-    public WoodClass wood = new WoodClass();
-
-
-
     public static InventoryManager Instance;
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject); 
         }
-        else
+        else if (Instance != this)
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
-        //Debug.Log("0");
-        //UIManager.Instance.UpdateHotbar();
     }
+
+    private void Start()
+    {
+        UpdateHotbar();
+    }
+
     private void Update()
     {
         
     }
-    public void AddToInventory(BaseMat newMat, int amount)
+    public void AddToInventory(int itemID, int itemAmount)
     {
-
+        UpdateHotbar();
     }
-    public void RemoveFromInventory(BaseMaterial oldMath, int amount) 
+    public void RemoveFromInventory(int itemID, int itemAmount) 
     {
-    
+        UpdateHotbar();
+    }
+
+    private void UpdateHotbar()
+    {
+        UIManager.Instance.UpdateHotbar();
     }
 }
