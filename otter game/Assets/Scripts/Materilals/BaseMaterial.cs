@@ -35,4 +35,12 @@ public class BaseMaterial : ScriptableObject
         }
     }
 
+    public int ID
+    {
+        get
+        {
+            return id;
+        }
+    }
+
 }

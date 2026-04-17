@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 182867470}
   - component: {fileID: 182867472}
   - component: {fileID: 182867471}
+  - component: {fileID: 182867473}
   m_Layer: 5
   m_Name: Hot_2
   m_TagString: Untagged
@@ -195,6 +196,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182867469}
   m_CullTransparentMesh: 1
+--- !u!114 &182867473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182867469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f0daffdfe704a47b206cc0d7814dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::hotbarItem
 --- !u!1 &472584627
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,6 +820,7 @@ GameObject:
   - component: {fileID: 835036163}
   - component: {fileID: 835036165}
   - component: {fileID: 835036164}
+  - component: {fileID: 835036166}
   m_Layer: 5
   m_Name: Hot_4
   m_TagString: Untagged
@@ -872,6 +886,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835036162}
   m_CullTransparentMesh: 1
+--- !u!114 &835036166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835036162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f0daffdfe704a47b206cc0d7814dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::hotbarItem
 --- !u!1 &902719505
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,6 +1090,7 @@ GameObject:
   - component: {fileID: 1171357070}
   - component: {fileID: 1171357072}
   - component: {fileID: 1171357071}
+  - component: {fileID: 1171357073}
   m_Layer: 5
   m_Name: Hot_3
   m_TagString: Untagged
@@ -1129,6 +1156,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171357069}
   m_CullTransparentMesh: 1
+--- !u!114 &1171357073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171357069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f0daffdfe704a47b206cc0d7814dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::hotbarItem
 --- !u!1 &1182071278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,6 +1727,7 @@ GameObject:
   - component: {fileID: 1778514805}
   - component: {fileID: 1778514807}
   - component: {fileID: 1778514806}
+  - component: {fileID: 1778514808}
   m_Layer: 5
   m_Name: Hot_5
   m_TagString: Untagged
@@ -1753,6 +1793,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778514804}
   m_CullTransparentMesh: 1
+--- !u!114 &1778514808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778514804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f0daffdfe704a47b206cc0d7814dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::hotbarItem
 --- !u!1 &1868154494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1764,6 +1816,7 @@ GameObject:
   - component: {fileID: 1868154495}
   - component: {fileID: 1868154497}
   - component: {fileID: 1868154496}
+  - component: {fileID: 1868154498}
   m_Layer: 5
   m_Name: Hot_1
   m_TagString: Untagged
@@ -1829,6 +1882,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868154494}
   m_CullTransparentMesh: 1
+--- !u!114 &1868154498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868154494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f0daffdfe704a47b206cc0d7814dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::hotbarItem
 --- !u!1 &1902629857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1840,6 +1905,7 @@ GameObject:
   - component: {fileID: 1902629858}
   - component: {fileID: 1902629860}
   - component: {fileID: 1902629859}
+  - component: {fileID: 1902629861}
   m_Layer: 5
   m_Name: Hot_6
   m_TagString: Untagged
@@ -1905,6 +1971,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902629857}
   m_CullTransparentMesh: 1
+--- !u!114 &1902629861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902629857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f0daffdfe704a47b206cc0d7814dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::hotbarItem
 --- !u!1 &1990625637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,6 +1994,7 @@ GameObject:
   - component: {fileID: 1990625638}
   - component: {fileID: 1990625639}
   - component: {fileID: 1990625640}
+  - component: {fileID: 1990625641}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -1978,6 +2057,18 @@ MonoBehaviour:
   - {fileID: 1182071280}
   - {fileID: 1381225011}
   structure: {fileID: 11400000, guid: c29a08d2ec734294199054c9fce4f816, type: 2}
+--- !u!114 &1990625641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990625637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 718f4ea397c611445ac749704e7810c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

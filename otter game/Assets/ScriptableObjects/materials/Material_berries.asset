@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f70183531cbc7843b5c188510830e4c, type: 3}
   m_Name: Material_berries
   m_EditorClassIdentifier: Assembly-CSharp::BaseMaterial
-  materialName: 
-  id: 0
+  materialName: Berries
+  id: 4
   materialAmount: 0
-  materialSprite: {fileID: 0}
+  materialSprite: {fileID: 2408991836313283690, guid: c36d9cdd5bcf4f2478a1ed84eccb6848, type: 3}

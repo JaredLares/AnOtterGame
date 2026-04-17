@@ -21,4 +21,9 @@ public class InventoryStructure : ScriptableObject
     {
         return inventory[index].MaterialAmount;
     }
+
+    public int InventoryID(int index)
+    {
+        return inventory[index].ID;
+    }
 }
